@@ -1,6 +1,12 @@
 #!/usr/bin/python3
+# 6-print_matrix_integer.py
 def print_matrix_integer(matrix=[[]]):
-    for row in matrix:
-        for col in row:
-            print("{:d}".format(col), end=" " if col != row[-1] else "")
-            print()
+    for index, num in enumerate(matrix):
+        # length = len(matrix[index]) - 1
+        for j, digit in enumerate(matrix[index]):
+            # if j = length:
+            if digit == matrix[index][-1]:
+                print("{:d}".format(digit), end='')
+            else:
+                print("{:d} ".format(digit), end='')
+                print()
