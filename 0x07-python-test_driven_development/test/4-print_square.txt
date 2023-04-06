@@ -1,5 +1,4 @@
-
-iypeError: prinquare.txt
+# 4-print_square.txt
 
 ============================
 How to Use 4-print_square.py
@@ -92,4 +91,4 @@ At least one argument must be provided.
 
     >>> print_square()
     Traceback (most recent call last):
-    TypeError: print_square() missing 1 required positional argument: 'size'_square() missing 1 required positional argument: 'size'
+    TypeError: print_square() missing 1 required positional argument: 'size'
